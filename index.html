@@ -130,7 +130,7 @@ header.nav.scrolled .burger span{background:var(--navy)}
 .scroll-hint .mouse::after{content:"";position:absolute;top:7px;left:50%;transform:translateX(-50%);width:3px;height:7px;background:#fff;border-radius:2px;animation:scrolldot 1.6s infinite}
 @keyframes scrolldot{0%{opacity:0;top:6px}40%{opacity:1}80%{opacity:0;top:16px}100%{opacity:0}}
 
-/* ---------- ENQUIRY BAR (the Laguna page's floating booking bar, made functional) ---------- */
+/* ---------- ENQUIRY BAR (floats over the hero; builds a pre-filled WhatsApp link) ---------- */
 .ebar-wrap{position:relative;z-index:5;margin-top:-72px;padding:0 0 8px}
 .ebar{background:var(--bg);border-radius:var(--r-field);box-shadow:var(--shadow-1,0 4px 20px rgba(0,0,0,.08));display:grid;grid-template-columns:1.4fr 1fr .8fr auto;gap:0;align-items:stretch;overflow:hidden}
 .ebar .f{padding:14px 20px;border-right:1px solid var(--line);display:flex;flex-direction:column;justify-content:center;min-width:0}
@@ -150,7 +150,7 @@ header.nav.scrolled .burger span{background:var(--navy)}
 .pill+.pill{border-left:1px solid rgba(255,255,255,.14)}
 .pill b{display:block;color:#fff;font-weight:700}
 
-/* ---------- TOURS (Balikami stacked template on the Laguna tokens) ---------- */
+/* ---------- TOURS (stacked panels, alternating photo/text) ---------- */
 .tours-stack{margin-top:56px;background:var(--bg);border:1px solid var(--line);border-radius:var(--r);overflow:hidden;box-shadow:var(--shadow-sm)}
 .tour{display:grid;grid-template-columns:1.04fr .96fr;align-items:stretch;border-top:1px solid var(--line)}
 .tour:first-of-type{border-top:0}
@@ -200,7 +200,7 @@ header.nav.scrolled .burger span{background:var(--navy)}
 .lb button{position:absolute;top:18px;right:18px;background:#fff;border:0;border-radius:50%;width:42px;height:42px;font-size:1.3rem;cursor:pointer;color:var(--ink)}
 .lb figcaption{position:absolute;left:0;right:0;bottom:18px;text-align:center;color:rgba(255,255,255,.8);font-size:.82rem;letter-spacing:.06em}
 
-/* ---------- TRANSFER TABLE (Balikami template on the Laguna tokens) ---------- */
+/* ---------- TRANSFER TABLE ---------- */
 .tf-wrap{margin-top:48px;background:var(--bg);border:1px solid var(--line);border-radius:var(--r);box-shadow:var(--shadow-sm);overflow:hidden}
 .tf-scroll{overflow-x:auto}
 table.tf{width:100%;border-collapse:collapse;min-width:640px}
@@ -442,7 +442,7 @@ table.tf td.bk{padding-left:8px;white-space:nowrap;text-align:right}
   </div>
 </section>
 
-<!-- ===== TOURS (Balikami template, 2026-09-28 owner instruction) ===== -->
+<!-- ===== TOURS ===== -->
 <section class="section section--soft" id="tours" style="padding-bottom:0">
   <div class="container center reveal">
     <span class="eyebrow">Scenic flights from Nusa Dua</span>
@@ -749,7 +749,7 @@ table.tf td.bk{padding-left:8px;white-space:nowrap;text-align:right}
   </div>
 </section>
 
-<!-- ===== TRANSFERS (Balikami template, 2026-09-28 owner instruction) ===== -->
+<!-- ===== TRANSFERS ===== -->
 <section class="section" id="transfers">
   <div class="container">
     <div class="center reveal">
@@ -904,7 +904,7 @@ table.tf td.bk{padding-left:8px;white-space:nowrap;text-align:right}
   </div>
 </section>
 
-<!-- ===== DEPARTURE POINT (moved above the fleet 2026-09-29, owner instruction) ===== -->
+<!-- ===== DEPARTURE POINT ===== -->
 <section class="section section--soft" id="departure" style="padding-bottom:0">
   <div class="container">
     <!-- Departure point -->
